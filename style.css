@@ -1,0 +1,243 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#light {
+    font-weight: lighter;
+    display: inline;
+
+}
+
+#bold {
+    font-weight: bold;
+    display: inline;
+}
+
+.logo {
+    text-align: center;
+    color: rgb(67, 67, 67);
+    height: 70px;
+}
+
+#container {
+    background: rgb(0, 157, 255);
+    height: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-image: url(leptop.jpg); */
+    padding-left: 300px;
+}
+
+.text-head {
+    width: 500px;
+    color: white;
+    padding-top: 100px;
+}
+
+#title1 {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+#subtitle {
+    margin-bottom: 40px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#login {
+    width: 420px;
+    height: 550px;
+    position: relative;
+    left: 400px;
+    top: 50px;
+    background: rgba(255, 255, 255, 0.468);
+    color: white;
+    padding-top: 60px;
+    padding-left: 35px;
+}
+
+#text-form {
+    font-size: 24px;
+}
+
+label {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+input {
+    width: 350px;
+    height: 50px;
+    border: none;
+}
+
+button {
+    background: rgb(224, 160, 0);
+    width: 350px;
+    height: 50px;
+    border: none;
+    color: white;
+    font-size: 46px;
+}
+
+#private {
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+#cards {
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 300px;
+}
+
+.box {
+    width: 250px;
+    text-align: center;
+    margin-left: 150px;
+    margin-top: 50px;
+
+}
+
+.icon {
+    width: 80px;
+}
+
+.title-icon {
+    font-size: 24px;
+}
+
+#avatar {
+    height: 500px;
+    background: rgb(220, 220, 220);
+    padding-left: 600px;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.avatar-box {
+    width: 700px;
+    text-align: center;
+}
+
+#hr2 {
+    width: 20%;
+    position: relative;
+    left: 270px;
+    border: solid black;
+    text-align: center;
+
+}
+
+footer {
+    text-align: center;
+    height: 60px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    #container {
+        padding-left: 30px;
+        text-align: center;
+        height: 1200px;
+    }
+
+    .button2 {
+        width: 420px;
+        margin-bottom: 30px;
+    }
+
+    #hr1 {
+        width: 95%;
+        border: solid rgb(255, 255, 255);
+        text-align: center;
+    }
+
+    p {
+        text-align: left;
+        width: 400px;
+    }
+
+    #login {
+        width: 425px;
+        height: 500px;
+        position: relative;
+        left: auto;
+        top: 10px;
+        background: rgba(255, 255, 255, 0.468);
+        color: white;
+        padding-top: 20px;
+        padding-left: 35px;
+        text-align: left;
+    }
+
+    #cards {
+        height: 1170px;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 30px;
+    }
+
+    .box {
+        margin-left: 30px;
+        margin-top: 50px;
+        text-align: left;
+        width: 400px;
+    }
+
+    #avatar {
+        height: 500px;
+        background: rgb(220, 220, 220);
+        padding-left: 30px;
+        
+    }
+
+    .text-avatar {
+        text-align: center;
+    }
+
+    #hr2 {
+        display: none;
+    }
+
+    .avatar-box{
+        width: 400px;
+    }
+
+    .avatar {
+        position: relative;
+        top: 50%;
+        text-align: center;
+    }
+    #text-footer{
+        font-size: 10px;
+        text-align: center;
+    }
+}
+
+
+
+@media screen and (min-width: 600px) {
+    .button2 {
+        display: none;
+    }
+
+    #hr1 {
+        display: none;
+    }
+
+}
